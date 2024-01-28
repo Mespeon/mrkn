@@ -1,10 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700;800&display=swap');
+@import url('colors.css');
+@import url('text.css');
 
 body {
-    background-color: #fefefe;
+    background-color: var(--bg-custom-dark-alternate) !important;
+    color: var(--text-custom-tertiary) !important;
     font-family: 'Poppins', sans-serif;
+}
+
+.pancake {
+    display: grid !important;
+    grid-template-rows: auto 1fr auto !important;
+    height: 100vh;
 }
 
 .linkedin-btn {
     background-color: #0072b1;
+}
+
+.custom-icon-button {
+    background-color: transparent;
+    border: none;
+    transition:ease-in;
+    transition-duration: 0.25s;
+}
+
+.custom-icon-button:hover {
+    color: var(--text-custom-light) !important;
+}
+
+.vertical-text {
+    writing-mode: vertical-lr;
+    text-orientation: sideways;
 }

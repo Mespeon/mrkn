@@ -1,0 +1,21 @@
+:root {
+    --custom-fs-base: 1rem;
+    --custom-fs-micro: calc(var(--custom-fs-base) * 0.7);
+    --custom-fs-nano: calc(var(--custom-fs-base) * 0.6);
+}
+
+.custom-icon-sm {
+    font-size: calc(var(--custom-fs-base) * 1.5) !important;
+}
+
+.custom-icon-md {
+    font-size: calc(var(--custom-fs-base) * 2) !important;
+}
+
+.custom-fs-micro {
+    font-size: var(--custom-fs-micro) !important;
+}
+
+.custom-fs-nano {
+    font-size: var(--custom-fs-nano) !important;
+}

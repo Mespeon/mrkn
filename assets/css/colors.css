@@ -1,0 +1,70 @@
+:root {
+    /* Background colors */
+    --bg-custom-dark: #040d12;
+    --bg-custom-dark-alternate: #092635;
+    --bg-custom-dark-gray: #232931;
+    /* Text colors */
+    --text-custom-primary: #5c8374;
+    --text-custom-secondary: #93b1a6;
+    --text-custom-tertiary: #9ec8b9;
+    --text-custom-light: #4ecca3;
+    --text-custom-dark: #183d3d;
+    --text-custom-gray: #393e46;
+    --text-custom-lightgray: #ababab;
+    --text-custom-midgray: #999999;
+    --text-custom-white: #eeeeee;
+    /* Custom Colors */
+    --steel-teal: #638889;
+}
+
+.custom-bg-dark {
+    background-color: var(--bg-custom-dark) !important;
+}
+
+.custom-bg-dark-alternate {
+    background-color: var(--bg-custom-dark-alternate) !important;
+}
+
+.custom-bg-dark-gray {
+    background-color: var(--bg-custom-dark-gray) !important;
+}
+
+.custom-text-primary {
+    color: var(--text-custom-primary) !important;
+}
+
+.custom-text-secondary {
+    color: var(--text-custom-secondary) !important;
+}
+
+.custom-text-tertiary {
+    color: var(--text-custom-tertiary) !important;
+}
+
+.custom-text-light {
+    color: var(--text-custom-light) !important;
+}
+
+.custom-text-dark {
+    color: var(--text-custom-dark) !important;
+}
+
+.custom-text-gray {
+    color: var(--text-custom-gray) !important;
+}
+
+.custom-text-lightgray {
+    color: var(--text-custom-lightgray) !important;
+}
+
+.custom-text-midgray {
+    color: var(--text-custom-midgray) !important;
+}
+
+.custom-text-white {
+    color: var(--text-custom-white) !important;
+}
+
+.custom-color-steel-teal {
+    color: var(--steel-teal) !important;
+}
