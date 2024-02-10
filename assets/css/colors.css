@@ -8,13 +8,20 @@
     --text-custom-secondary: #93b1a6;
     --text-custom-tertiary: #9ec8b9;
     --text-custom-light: #4ecca3;
+    --text-custom-light-complementary: #ef2b6b;
     --text-custom-dark: #183d3d;
     --text-custom-gray: #393e46;
     --text-custom-lightgray: #ababab;
     --text-custom-midgray: #999999;
     --text-custom-white: #eeeeee;
+    --text-custom-white-lower: #bcbcbc;
     /* Custom Colors */
     --steel-teal: #638889;
+    --mint-jelly: #4ecca3;
+    --cherry: #ef2b6b;
+    /* Custom Colors with Transparency */
+    --trans-mint-jelly: rgba(78, 204,163, 0.5);
+    --trans-cherry: rgba(239, 43, 107, 0.25);
 }
 
 .custom-bg-dark {
@@ -27,6 +34,10 @@
 
 .custom-bg-dark-gray {
     background-color: var(--bg-custom-dark-gray) !important;
+}
+
+.custom-bg-mint-jelly-transparency {
+    background-color: rgba(78, 204, 163, 0.5) !important;
 }
 
 .custom-text-primary {
@@ -43,6 +54,10 @@
 
 .custom-text-light {
     color: var(--text-custom-light) !important;
+}
+
+.custom-text-light-complementary {
+    color: var(--text-custom-light-complementary) !important;
 }
 
 .custom-text-dark {
@@ -63,6 +78,10 @@
 
 .custom-text-white {
     color: var(--text-custom-white) !important;
+}
+
+.custom-text-white-lower {
+    color: var(--text-custom-white-lower) !important;
 }
 
 .custom-color-steel-teal {

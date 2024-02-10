@@ -1,0 +1,13 @@
+/* .masonry-grid-item {
+    width: 150px;
+} */
+
+.masonry-grid-sizer, 
+.masonry-grid-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+}

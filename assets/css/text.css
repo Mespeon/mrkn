@@ -2,6 +2,8 @@
     --custom-fs-base: 1rem;
     --custom-fs-micro: calc(var(--custom-fs-base) * 0.7);
     --custom-fs-nano: calc(var(--custom-fs-base) * 0.6);
+    --custom-fs-double: calc(var(--custom-fs-base) * 4);
+    --custom-fs-quarter-rem: calc(var(--custom-fs-base) / 1.1);
 }
 
 .custom-icon-sm {
@@ -18,4 +20,12 @@
 
 .custom-fs-nano {
     font-size: var(--custom-fs-nano) !important;
+}
+
+.custom-fs-double {
+    font-size: var(--custom-fs-double) !important;
+}
+
+.custom-fs-quarter-rem {
+    font-size: var(--custom-fs-quarter-rem) !important;
 }

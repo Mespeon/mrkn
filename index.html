@@ -16,15 +16,17 @@
 <body>
     <div class="pancake">
         <header>
-            <!-- To-do: add a responsive header -->
-            <div class="font-monospace float-end custom-color-steel-teal p-2 custom-fs-micro fw-bold">
-                Under Development
+            <div>
+                <!-- To-do: add a responsive header -->
+                <div class="font-monospace float-end custom-color-steel-teal p-2 custom-fs-micro fw-bold">
+                    Under Development
+                </div>
             </div>
         </header>
-        <main class="d-flex flex-wrap align-items-center justify-content-center">
+        <main class="d-flex flex-wrap align-items-center justify-content-center my-5">
             <!-- Connection buttons - hidden on xs/sm breakpoints -->
-            <div class="d-none d-md-block position-absolute bottom-0 start-0">
-                <div class="d-flex flex-column flex-wrap justify-content-center align-items-center fs-5 px-2 py-4">
+            <div class="d-none d-md-block position-fixed bottom-0 start-0">
+                <div class="d-flex flex-column flex-wrap justify-content-center align-items-center fs-5 px-4 py-4">
                     <div class="p-2 font-monospace custom-text-white custom-fs-micro"><span class="vertical-text">Let's connect.</span></div>
                     <div class="p-2">
                         <a href="https://github.com/Mespeon" target="_blank">
@@ -43,8 +45,9 @@
                     <div class="pb-1">&nbsp;</div>
                 </div>
             </div>
-            <div class="container-fluid d-flex flex-wrap align-items-center justify-content-center">
-                <div class="position-relative col-12 col-md-6">
+            <div class="col-12 col-md-6 container-fluid d-flex flex-wrap align-items-start justify-content-center">
+                <!-- Center-aligned main content -->
+                <!-- <div class="position-relative col-12 col-md-6">
                     <div class="position-absolute top-50 start-0 translate-middle-y">
                         <div class="col-12">
                             <div class="text-wrap fs-1 fw-bolder custom-text-light">Mark Nolledo</div>
@@ -52,6 +55,165 @@
                             <div class="text-wrap fs-6 fw-normal custom-text-lightgray mt-5 pe-5 pe-md-0">I develop web systems and inspire future minds.</div>
                             <div class="text-wrap custom-fs-micro fw-normal custom-text-midgray mt-5 font-monospace">More info coming soon_</div>
                         </div>
+                    </div>
+                </div> -->
+                <!-- Nameplate -->
+                <div class="d-none d-xl-block position-fixed start-0 ps-5">
+                    <div class="text-wrap fw-bolder fs-1 custom-text-light lh-1">Mark Nolledo</div>
+                    <div class="text-wrap fs-6 fw-normal custom-text-white">Web Programmer & College Instructor</div>
+                    <div class="text-wrap custom-fs-micro fw-normal custom-text-white-lower mt-4 pe-4 pe-md-0">I develop web systems and inspire future minds.</div>
+                    <!-- <div class="text-wrap custom-fs-micro fw-normal custom-text-midgray mt-5 font-monospace">More info coming soon_</div> -->
+                </div>
+                <div class="d-block d-xl-none col-12 col-lg-8 px-lg-3 ps-3">
+                    <div class="text-wrap fw-bolder fs-1 custom-text-light lh-1">Mark Nolledo</div>
+                    <div class="text-wrap fs-6 fw-normal custom-text-white">Web Programmer & College Instructor</div>
+                    <div class="text-wrap custom-fs-micro fw-normal custom-text-white-lower mt-4 pe-4 pe-md-0">I develop web systems and inspire future minds.</div>
+                    <!-- <div class="text-wrap custom-fs-micro fw-normal custom-text-midgray mt-5 font-monospace">A</div> -->
+                </div>
+                <!-- Navigation -->
+                <div class="d-none d-xl-block position-fixed end-0 pe-4">
+                    <div class="vertical-fixed-nav d-flex flex-col flex-wrap align-items-center justify-content-center text-start custom-fs-quarter-rem">
+                        <div class="fixed-nav-item col-12 mb-3">
+                            <a href="#" class="fixed-nav-item-link fw-bold">About</a>
+                        </div>
+                        <div class="fixed-nav-item col-12 mb-3">
+                            <a href="#experience" class="fixed-nav-item-link fw-bold">Experience</a>
+                        </div>
+                        <div class="fixed-nav-item col-12 mb-3">
+                            <a href="#stack" class="fixed-nav-item-link fw-bold">Tech Stack</a>
+                        </div>
+                        <div class="fixed-nav-item col-12 mb-3">
+                            <a href="#works" class="fixed-nav-item-link fw-bold">Personal Works</a>
+                        </div>
+                    </div>
+                    <!-- <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link ps-0 pe-4" href="#">About</a>
+                        </li> -->
+                        <!-- <li class="nav-item">
+                            <a class="nav-link ps-0 pe-4" href="#techstacks">Tech Stacks</a>
+                        </li> -->
+                        <!-- <li class="nav-item">
+                            <a class="nav-link ps-0 pe-4" href="#experience">Experience</a>
+                        </li>
+                    </ul> -->
+                </div>
+                <!-- Descriptions -->
+                <div id="content-bar-container" class="col-12 col-lg-9 px-0 py-4 px-lg-4 py-md-0 mt-5 mt-xl-0">
+                    <!-- Content -->
+                    <!-- About -->
+                    <div id="about-container" class="col-12 text-wrap px-3">
+                        <h2 id="#" class="custom-text-white fs-6 fw-bold text-uppercase">About</h2>
+                        <p class="custom-fs-quarter-rem custom-text-white-lower text-break lh-lg">
+                            My first foray with programming started way back during the day when overlay layouts for Friendster was the hype. Creating unique layouts using assets I made and adding scripts to make them interactive were more than enough to make me pursue programming further.
+                            <br/><br/>
+                            During the day, I am a web programmer. During the nights, I teach Computer Science and Information Technology students in a state university.
+                            And now, to date, I have been part of teams that released software for the Philippine branches of an <a href="https://tiongbahru.ph/" target="_blank" class="custom-link fw-bold custom-text-light text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Tiong Bahru Philippines">international restaurant</a>, 
+                            a <a href="https://psphbeauty.com/psph/" target="_blank" class="custom-link fw-bold custom-text-light text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="PSPH Beauty">cosmetics company</a>,
+                            and a <a href="" class="custom-link fw-bold custom-text-light text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Ole Platform">finance technology platform</a> and its standalone Checkout service.
+                            I was also part of an <a href="" class="custom-link fw-bold custom-text-light text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Addressing the Business Disruption Through the Development and Pilot Testing of Caviturismo: A Web Portal for Cavite Tourism">academic paper</a> that produced a platform for boosting tourism in the province where I live.
+                            <br/><br/>
+                            Programming aside, I enjoy playing rhythm games, looking for books to read, exploring Teyvat, encountering Raptures, and collecting keyboards.
+                        </p>
+                    </div>
+                    <!-- Experience -->
+                    <div id="experience-container" class="col-12 text-wrap mt-5 px-2">
+                        <h2 id="experience" class="custom-text-white fs-6 fw-bold text-uppercase ms-2">Experience</h2>
+                        <a href="https://oesph.io" class="text-decoration-none" target="_blank">
+                            <div class="experience-card my-4 text-break p-2">
+                                <div class="custom-fs-quarter-rem custom-text-white-lower d-flex align-items-center"><span class="badge custom-steel-teal-pill me-2">Full time</span> May 2022 - Present</div>
+                                <div class="fs-3 fw-bold custom-text-light">Web Programmer</div>
+                                <div class="fs-6 custom-text-white">Ole Elite Software Philippines Inc.</div>
+                                <p class="custom-fs-quarter-rem custom-text-white-lower text-break mt-3 lh-lg">
+                                    Build and deploy multiple systems primarily as a backend programmer, prepare configurations for containers and VPS deployments for local and production environments, maintenance works on current systems.
+                                </p>
+                            </div>
+                        </a>
+                        <a href="https://cvsu-rosario.edu.ph/" class="text-decoration-none" target="_blank">
+                            <div class="experience-card my-4 text-break p-2">
+                                <div class="custom-fs-quarter-rem custom-text-white-lower d-flex align-items-center"><span class="badge custom-cherry-pill me-2">Part time</span> February 2022 - Present</div>
+                                <div class="fs-3 fw-bold custom-text-light">College Instructor</div>
+                                <div class="fs-6 custom-text-white">Cavite State University - CCAT Campus</div>
+                                <p class="custom-fs-quarter-rem custom-text-white-lower text-break mt-3 lh-lg">
+                                    Teach, guide, and consult with CS and IT students in academic work, criticize students' thesis as technical critic, compile instructional materials for use in future classes.
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- Tech Stack -->
+                    <div id="techstack-container" class="col-12 text-wrap mt-5 px-3">
+                        <h2 id="stack" class="custom-text-white fs-6 fw-bold text-uppercase">Tech Stack</h2>
+                        <p class="custom-fs-quarter-rem custom-text-white-lower text-break my-4 lh-lg">
+                            Over the years, I have accumulated experience and development hours using these languages and technologies.
+                        </p>
+                        <div class="masonry-grid">
+                            <div class="masonry-grid-sizer">&nbsp;</div>
+                            <div class="masonry-grid-item custom-fs-double">
+                                <div class="p-2">
+                                    <i class="fa-brands fa-php"></i>
+                                </div>
+                            </div>
+                            <div class="masonry-grid-item custom-fs-double">
+                                <div class="p-2">
+                                    <i class="fa-brands fa-laravel"></i>
+                                </div>
+                            </div>
+                            <div class="masonry-grid-item fs-3">
+                                <div class="p-2">
+                                    MySQL
+                                </div>
+                            </div>
+                            <div class="masonry-grid-item fs-3">
+                                <div class="p-2 text-center">
+                                    Express
+                                </div>
+                            </div>
+                            <div class="masonry-grid-item custom-fs-double">
+                                <div class="p-2">
+                                    <i class="fa-brands fa-node-js"></i>
+                                </div>
+                            </div>
+                            <div class="masonry-grid-item custom-fs-double">
+                                <div class="p-2">
+                                    <i class="fa-brands fa-docker"></i>
+                                </div>
+                            </div>
+                            <div class="masonry-grid-item fs-3">
+                                <div class="p-2">
+                                    Sequelize
+                                </div>
+                            </div>
+                            <div class="masonry-grid-item custom-fs-double">
+                                <div class="p-2">
+                                    <i class="fa-brands fa-js"></i>
+                                </div>
+                            </div>
+                            <div class="masonry-grid-item custom-fs-double">
+                                <div class="p-2">
+                                    <i class="fa-brands fa-vuejs"></i>
+                                </div>
+                            </div>
+                            <div class="masonry-grid-item fs-3">
+                                <div class="p-2">
+                                    MongoDB
+                                </div>
+                            </div>
+                            <div class="masonry-grid-item custom-fs-double">
+                                <div class="p-2">
+                                    <i class="fa-brands fa-angular"></i>
+                                </div>
+                            </div>
+                            <div class="masonry-grid-item fs-3">
+                                <div class="p-2 text-center">
+                                    Spring Boot
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Personal Works -->
+                    <div id="works-container" class="col-12 text-wrap mt-5 px-3">
+                        <h2 id="works" class="custom-text-white fs-6 fw-bold text-uppercase">Personal Works</h2>
+                        <div class="fs-6 font-monospace custom-text-midgray">Information for this section coming soon_</div>
                     </div>
                 </div>
             </div>
@@ -79,6 +241,10 @@
             </div>
         </footer>
     </div>
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script src="assets/js/main.js" async></script>
 </body>
 </html>
