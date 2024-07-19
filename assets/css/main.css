@@ -27,7 +27,7 @@ body {
 }
 
 .custom-icon-button:hover {
-    color: var(--text-custom-light) !important;
+    color: var(--text-custom-light-complementary) !important;
 }
 
 .vertical-text {
