@@ -47,7 +47,7 @@ $(document).ready(function () {
 
   // Check URL to see if it's Github or own domain.
   const currentURL = document.URL;
-  currentURL.includes('mespeon.github.io/mrkn') ? $('#site-move-alert').show : $('#site-move-alert').hide();
+  currentURL.includes('mespeon.github.io/mrkn') ? $('#site-move-alert').show() : $('#site-move-alert').hide();
   
   const navSections = [].slice.call(document.querySelectorAll('section'));
   $(window).scroll(function () {
