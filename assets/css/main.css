@@ -9,6 +9,14 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+#site-move-alert {
+    display: none;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    z-index: 99;
+}
+
 .pancake {
     display: grid !important;
     grid-template-rows: auto 1fr auto !important;
