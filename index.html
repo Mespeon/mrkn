@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100">
 <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark Nolledo</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="author" content="Mark Nolledo"/>
+    <meta name="author" content="Mark Nolledo" />
     <meta name="description" content="An experienced web programmer that loves creating systems and inspiring future minds." />
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
     <meta name="og:image" href="https://marknolledo.com/assets/images/thumbnail.png" />
@@ -15,323 +17,36 @@
     <link href="assets/vendor/fontawesome/css/fontawesome.min.css" rel="stylesheet">
     <link href="assets/vendor/fontawesome/css/brands.min.css" rel="stylesheet">
     <link href="assets/vendor/fontawesome/css/solid.min.css" rel="stylesheet">
-    <title>Mark Nolledo</title>
 </head>
-
-<body>
-    <div id="pancake" class="pancake">
-        <div id="site-move-alert" class="alert alert-primary rounded-0 text-center" role="alert">
-            <p class="p-0 m-0">
-                <span class="fw-bolder">I have moved!</span> Head over to <a href="https://marknolledo.com" target="_blank" class="custom-link fw-bold custom-text-light text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Mark Nolledo, a CIC II and a web programmer">marknolledo.com</a> for future updates!
-            </p>
-        </div>
-        <header>
-            <div>
-                <!-- To-do: add a responsive header -->
-                <div class="font-monospace float-end custom-color-steel-teal p-2 custom-fs-micro fw-bold">
-                    Under Development
-                </div>
-            </div>
-        </header>
-        <main id="main-container" class="d-flex flex-wrap align-items-center justify-content-center my-5">
-            <div class="col-12 col-md-6 container-fluid d-flex flex-wrap align-items-start justify-content-center">
-                <!-- Center-aligned main content -->
-                <!-- <div class="position-relative col-12 col-md-6">
-                    <div class="position-absolute top-50 start-0 translate-middle-y">
-                        <div class="col-12">
-                            <div class="text-wrap fs-1 fw-bolder custom-text-light">Mark Nolledo</div>
-                            <div class="text-wrap fs-6 fw-normal custom-text-white">Web Programmer & College Instructor</div>
-                            <div class="text-wrap fs-6 fw-normal custom-text-lightgray mt-5 pe-5 pe-md-0">I develop web systems and inspire future minds.</div>
-                            <div class="text-wrap custom-fs-micro fw-normal custom-text-midgray mt-5 font-monospace">More info coming soon_</div>
-                        </div>
-                    </div>
-                </div> -->
-                <!-- Nameplate -->
-                <div class="d-none d-xl-block position-fixed start-0 ps-5">
-                    <div class="text-wrap fw-bolder fs-1 custom-text-light lh-1">Mark Nolledo</div>
-                    <div class="text-wrap fs-6 fw-normal custom-text-white">Web Programmer</div>
-                    <div class="text-wrap custom-fs-micro fw-normal custom-text-white-lower mt-4 pe-4 pe-md-0">I develop web systems and inspire future minds.</div>
-                    <!-- Connection buttons -->
-                    <div class="d-flex flex-wrap justify-content-start align-items-center mt-4">
-                        <div class="pe-2 font-monospace custom-text-midgray custom-fs-micro"><span>Let's connect.</span></div>
-                        <div class="p-2">
-                            <a href="https://github.com/Mespeon" target="_blank">
-                                <button class="custom-icon-button custom-icon-sm custom-text-white">
-                                    <i class="fa-brands fa-github"></i>
-                                </button>
-                            </a>
-                        </div>
-                        <div class="p-2">
-                            <a href="https://www.linkedin.com/in/marknolledo" target="_blank">
-                                <button class="custom-icon-button custom-icon-sm custom-text-white">
-                                    <i class="fa-brands fa-linkedin"></i>
-                                </button>
-                            </a>
-                        </div>
-                        <div class="pb-1">&nbsp;</div>
-                    </div>
-                </div>
-                <div class="d-block d-xl-none col-12 col-lg-8 px-lg-3 ps-3">
-                    <div class="text-wrap fw-bolder fs-1 custom-text-light lh-1">Mark Nolledo</div>
-                    <div class="text-wrap fs-6 fw-normal custom-text-white">Web Programmer</div>
-                    <div class="text-wrap custom-fs-micro fw-normal custom-text-white-lower mt-4 pe-4 pe-md-0">I develop web systems and inspire future minds.</div>
-                    <!-- Connection buttons -->
-                    <div class="d-flex flex-wrap justify-content-start align-items-center mt-4">
-                        <div class="pe-2 font-monospace custom-text-midgray custom-fs-micro"><span>Let's connect.</span></div>
-                        <div class="p-2">
-                            <a href="https://github.com/Mespeon" target="_blank">
-                                <button class="custom-icon-button custom-icon-sm custom-text-white">
-                                    <i class="fa-brands fa-github"></i>
-                                </button>
-                            </a>
-                        </div>
-                        <div class="p-2">
-                            <a href="https://www.linkedin.com/in/marknolledo" target="_blank">
-                                <button class="custom-icon-button custom-icon-sm custom-text-white">
-                                    <i class="fa-brands fa-linkedin"></i>
-                                </button>
-                            </a>
-                        </div>
-                        <div class="pb-1">&nbsp;</div>
-                    </div>
-                </div>
-                <!-- Navigation -->
-                <div class="d-none d-xl-block position-fixed end-0 pe-4">
-                    <div id="nav-list" class="vertical-fixed-nav d-flex flex-col flex-wrap align-items-center justify-content-center text-start custom-fs-quarter-rem">
-                    </div>
-                </div>
-                <!-- Descriptions -->
-                <div id="content-bar-container" class="col-12 col-lg-9 px-0 py-4 px-lg-4 py-md-0 mt-5 mt-xl-0">
-                    <!-- Content -->
-                    <!-- About -->
-                    <section id="__about" class="active" data-group="nav-items" data-name="About">
-                        <div id="about-container" class="col-12 text-wrap px-3">
-                            <h2 id="about" class="custom-text-white fs-6 fw-bold text-uppercase">About</h2>
-                            <p class="custom-fs-quarter-rem custom-text-white-lower text-break lh-lg fw-normal">
-                                My first foray with programming started way back during the day when overlay layouts for Friendster was the hype. Creating unique layouts using assets I made and adding scripts to make them interactive were more than enough to make me pursue programming further.
-                                <br/><br/>
-                                I have been a web programmer and a college instructor. When not doing programming, I mentor students, colleagues, and friends who want to learn web development.
-                                To date, I have been part of teams that web systems for the Philippine branches of an <a href="#" target="_blank" class="custom-link fw-bold custom-text-light text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Tiong Bahru Philippines">international restaurant</a>, 
-                                a <a href="#" target="_blank" class="custom-link fw-bold custom-text-light text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="PSPH Beauty">cosmetics company</a>,
-                                and a <a href="#" class="custom-link fw-bold custom-text-light text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Ole Platform">finance technology platform</a> and its standalone Checkout service.
-                                I was also part of an <a href="https://link.springer.com/chapter/10.1007/978-981-97-3299-9_24" target="_blank" class="custom-link fw-bold custom-text-light text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Addressing the Business Disruption Through the Development and Pilot Testing of Caviturismo: A Web Portal for Cavite Tourism">academic paper</a> that produced a platform for boosting tourism in the province where I live.
-                                <br/><br/>
-                                Programming aside, I enjoy playing rhythm games, looking for books to read, exploring Teyvat, encountering Raptures, and collecting keyboards.
-                            </p>
-                        </div>
-                    </section>
-                    <!-- Experience -->
-                    <section id="__experience" data-group="nav-items" data-name="Experience">
-                        <div id="experience-container" class="col-12 text-wrap mt-5 px-2">
-                            <h2 id="experience" class="custom-text-white fs-6 fw-bold text-uppercase ms-2">Experience</h2>
-                            <a href="http://lwdh.on.ca" class="text-decoration-none" target="_blank">
-                                <div class="experience-card my-4 text-break p-2">
-                                    <div class="custom-fs-quarter-rem custom-text-white-lower d-flex align-items-center"><span class="badge bg-success me-2">Full time</span> April 2025 - Present</div>
-                                    <div class="fs-3 fw-bold custom-text-light">Clinical Information Clerk II</div>
-                                    <div class="fs-6 custom-text-white">Lake of the Woods District Hospital</div>
-                                    <p class="custom-fs-quarter-rem custom-text-white-lower text-break mt-3 lh-lg">
-                                        Performs multiple clerical, technical, and support tasks for day-to-day duties in the Admitting and Patient Registration department.
-                                    </p>
-                                </div>
-                            </a>
-                            <a href="https://oesph.io" class="text-decoration-none" target="_blank">
-                                <div class="experience-card my-4 text-break p-2">
-                                    <div class="custom-fs-quarter-rem custom-text-white-lower d-flex align-items-center"><span class="badge bg-success me-2">Full time</span> May 2022 - April 2024</div>
-                                    <div class="fs-3 fw-bold custom-text-light">Web Programmer</div>
-                                    <div class="fs-6 custom-text-white">Ole Elite Software Philippines Inc.</div>
-                                    <p class="custom-fs-quarter-rem custom-text-white-lower text-break mt-3 lh-lg">
-                                        Built and deployed multiple systems primarily as a backend programmer, prepared configurations for containers and VPS deployments, and maintained active production systems.
-                                    </p>
-                                </div>
-                            </a>
-                            <a href="https://cvsu-rosario.edu.ph/" class="text-decoration-none" target="_blank">
-                                <div class="experience-card my-4 text-break p-2">
-                                    <div class="custom-fs-quarter-rem custom-text-white-lower d-flex align-items-center"><span class="badge custom-cherry-pill me-2">Part time</span> February 2022 - June 2024</div>
-                                    <div class="fs-3 fw-bold custom-text-light">College Instructor</div>
-                                    <div class="fs-6 custom-text-white">Cavite State University - CCAT Campus</div>
-                                    <p class="custom-fs-quarter-rem custom-text-white-lower text-break mt-3 lh-lg">
-                                        Taught relevant subjects under the Computer Studies department, assigned with technical critic advisory duties for thesis groups, and provided assistance to students through consultations.
-                                    </p>
-                                </div>
-                            </a>
-                            <a href="https://www.dynamicmarkups.com/" class="text-decoration-none" target="_blank">
-                                <div class="experience-card my-4 text-break p-2">
-                                    <div class="custom-fs-quarter-rem custom-text-white-lower d-flex align-items-center"><span class="badge bg-success me-2">Full time</span> January 2021 - May 2022</div>
-                                    <div class="fs-3 fw-bold custom-text-light">Web Programmer</div>
-                                    <div class="fs-6 custom-text-white">Dynamic Markups I.T. Solutions</div>
-                                    <p class="custom-fs-quarter-rem custom-text-white-lower text-break mt-3 lh-lg">
-                                        Built, deployed, and maintained web systems for clients based in the Philippines.
-                                    </p>
-                                </div>
-                            </a>
-                            <a href="https://stefanini.com/en/philippines" class="text-decoration-none" target="_blank">
-                                <div class="experience-card my-4 text-break p-2">
-                                    <div class="custom-fs-quarter-rem custom-text-white-lower d-flex align-items-center"><span class="badge bg-success me-2">Full-time</span> July 2020 - October 2020</div>
-                                    <div class="fs-3 fw-bold custom-text-light">Helpdesk Technician</div>
-                                    <div class="fs-6 custom-text-white">Stefanini Group Philippines</div>
-                                    <p class="custom-fs-quarter-rem custom-text-white-lower text-break mt-3 lh-lg">
-                                        Assisted in business-to-business service desk inquiries and calls for Active Directory and S.A.P. credential management, technical support, and ticket escalations.
-                                    </p>
-                                </div>
-                            </a>
-                            <a href="https://www.linkedin.com/company/leentechsystems/" class="text-decoration-none" target="_blank">
-                                <div class="experience-card my-4 text-break p-2">
-                                    <div class="custom-fs-quarter-rem custom-text-white-lower d-flex align-items-center"><span class="badge bg-success me-2">Full time</span> June 2019 - May 2020</div>
-                                    <div class="fs-3 fw-bold custom-text-light">Junior Software Engineer</div>
-                                    <div class="fs-6 custom-text-white">LEENTech Network Solutions</div>
-                                    <p class="custom-fs-quarter-rem custom-text-white-lower text-break mt-3 lh-lg">
-                                        Served as a mobile app developer working with different teams of developers and QA testers, delivering high quality applications to clients in the Philippines and abroad.
-                                    </p>
-                                </div>
-                            </a>
-                        </div>
-                    </section>
-                    <!-- Tech Stack -->
-                    <section id="__tech-stack" data-group="nav-items" data-name="Tech Stack">
-                        <div id="techstack-container" class="col-12 text-wrap mt-5 px-3">
-                            <h2 id="techstack" class="custom-text-white fs-6 fw-bold text-uppercase">Tech Stack</h2>
-                            <p class="custom-fs-quarter-rem custom-text-white-lower text-break my-4 lh-lg">
-                                I currently use these in active development and production projects.
-                            </p>
-                            <div class="masonry-grid">
-                                <div class="masonry-grid-sizer">&nbsp;</div>
-                                <div class="masonry-grid-item custom-fs-double">
-                                    <div class="p-2">
-                                        <i class="fa-brands fa-php"></i>
-                                    </div>
-                                </div>
-                                <div class="masonry-grid-item custom-fs-double">
-                                    <div class="p-2">
-                                        <i class="fa-brands fa-laravel"></i>
-                                    </div>
-                                </div>
-                                <div class="masonry-grid-item fs-3">
-                                    <div class="p-2">
-                                        MySQL
-                                    </div>
-                                </div>
-                                <div class="masonry-grid-item fs-3">
-                                    <div class="p-2 text-center">
-                                        Express
-                                    </div>
-                                </div>
-                                <div class="masonry-grid-item custom-fs-double">
-                                    <div class="p-2">
-                                        <i class="fa-brands fa-node-js"></i>
-                                    </div>
-                                </div>
-                                <div class="masonry-grid-item custom-fs-double">
-                                    <div class="p-2">
-                                        <i class="fa-brands fa-docker"></i>
-                                    </div>
-                                </div>
-                                <div class="masonry-grid-item fs-3">
-                                    <div class="p-2">
-                                        Sequelize
-                                    </div>
-                                </div>
-                                <div class="masonry-grid-item custom-fs-double">
-                                    <div class="p-2">
-                                        <i class="fa-brands fa-js"></i>
-                                    </div>
-                                </div>
-                                <div class="masonry-grid-item custom-fs-double">
-                                    <div class="p-2">
-                                        <i class="fa-brands fa-vuejs"></i>
-                                    </div>
-                                </div>
-                                <div class="masonry-grid-item fs-3">
-                                    <div class="p-2">
-                                        MongoDB
-                                    </div>
-                                </div>
-                                <div class="masonry-grid-item fs-3">
-                                    <div class="p-2">
-                                        TypeScript
-                                    </div>
-                                </div>
-                            </div>
-
-                            <p class="custom-fs-quarter-rem custom-text-white-lower text-break my-4 lh-lg">
-                                Over the years, I have used these for personal and simple projects.
-                            </p>
-                            <div class="masonry-grid">
-                                <div class="masonry-grid-sizer">&nbsp;</div>
-                                <div class="masonry-grid-item custom-fs-double">
-                                    <div class="p-2">
-                                        <i class="fa-brands fa-angular"></i>
-                                    </div>
-                                </div>
-                                <div class="masonry-grid-item custom-fs-double">
-                                    <div class="p-2">
-                                        <i class="fa-brands fa-react"></i>
-                                    </div>
-                                </div>
-                                <div class="masonry-grid-item custom-fs-double">
-                                    <div class="p-2">
-                                        <i class="fa-brands fa-python"></i>
-                                    </div>
-                                </div>
-                                <div class="masonry-grid-item fs-3">
-                                    <div class="p-2 text-center">
-                                        Spring Boot
-                                    </div>
-                                </div>
-                                <div class="masonry-grid-item fs-3">
-                                    <div class="p-2 text-center">
-                                        Django
-                                    </div>
-                                </div>
-                                <div class="masonry-grid-item fs-3">
-                                    <div class="p-2 text-center">
-                                        SQLite
-                                    </div>
-                                </div>
-                                <div class="masonry-grid-item fs-3">
-                                    <div class="p-2 text-center">
-                                        Flutter
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <!-- Personal Works -->
-                    <section id="__personal-works" data-group="nav-items" data-name="Personal Works">
-                        <div id="works-container" class="col-12 text-wrap mt-5 px-3">
-                            <h2 id="personalworks" class="custom-text-white fs-6 fw-bold text-uppercase">Personal Works</h2>
-                            <div class="fs-6 font-monospace custom-text-midgray">Information for this section coming soon_</div>
-                        </div>
-                    </section>
+<body class="d-flex h-100 text-center">
+    <div class="d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="mb-auto"></header>
+        <main class="px-3">
+            <h1 class="fw-bolder">I have moved!</h1>
+            <p class="py-2 fs-5">Head over to <a href="https://marknolledo.com" target="_blank" class="custom-link fw-bold custom-text-light text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Mark Nolledo, a CIC II and a web programmer">marknolledo.com</a> for future updates!</p>
+            <div class="fs-6">
+                <div class="p-2">
+                    <div>Let's connect.</div>
+                    <a href="https://github.com/Mespeon" target="_blank" class="text-decoration-none">
+                        <button class="custom-icon-button custom-icon-sm custom-text-white">
+                            <i class="fa-brands fa-github"></i>
+                        </button>
+                    </a>
+                    <span class="mx-2">&nbsp;</span>
+                    <a href="https://www.linkedin.com/in/marknolledo" target="_blank" class="text-decoration-none">
+                        <button class="custom-icon-button custom-icon-sm custom-text-white">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </button>
+                    </a>
                 </div>
             </div>
         </main>
-        <footer>
-            <!-- Connection buttons - shown on xs/sm breakpoints -->
-            <!-- <div class="d-block d-md-none container-fluid">
-                <div class="d-flex flex-wrap align-items-center justify-content-start py-2 col-12">
-                    <div class="font-monospace custom-text-white custom-fs-micro me-2">Let's connect.</div>
-                    <div class="mx-1">
-                        <a href="https://github.com/Mespeon" target="_blank">
-                            <button class="custom-icon-button custom-icon-sm custom-text-white">
-                                <i class="fa-brands fa-github"></i>
-                            </button>
-                        </a>
-                    </div>
-                    <div class="mx-1">
-                        <a href="https://www.linkedin.com/in/marknolledo" target="_blank">
-                            <button class="custom-icon-button custom-icon-sm custom-text-white">
-                                <i class="fa-brands fa-linkedin"></i>
-                            </button>
-                        </a>
-                    </div>
-                </div>
-            </div> -->
-        </footer>
+        <footer class="mt-auto"></footer>
     </div>
+
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
     <script src="assets/js/main.js" async></script>
 </body>
 </html>

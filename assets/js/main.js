@@ -29,11 +29,11 @@ const generateNavItems = [].slice.call(document.querySelectorAll('[data-group="n
 // jQuery blocks
 $(document).ready(function () {
   // Initialize Masonry
-  $('.masonry-grid').masonry({
-      itemSelector: '.masonry-grid-item',
-      columnWidth: '.masonry-grid-sizer',
-      percentPosition: false
-  });
+  // $('.masonry-grid').masonry({
+  //     itemSelector: '.masonry-grid-item',
+  //     columnWidth: '.masonry-grid-sizer',
+  //     percentPosition: false
+  // });
 
   // Change active nav when clicking
   $('.fixed-nav-item-link').click(e => {
